@@ -108,6 +108,10 @@ body {
   margin: none;
 }
 
+.reveal section img.clean.full {
+  width:90%;
+}
+
 .reveal section h2 img.clean {
   border: none;
   background: none;
@@ -154,6 +158,12 @@ body {
   transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
 }
 
+.reveal .great {
+  color: #FF780B;
+  margin-left: -25px;
+  font-size: 6em;
+  text-shadow: 0 1px 0 #FFA62A, 0 2px 0 #FF9900, 0 3px 0 #FF9900, 0 4px 0 #FF9900, 0 5px 0 #FF9900, 0 6px 1px rgba(0, 0, 0, 0.5), 0 0 5px rgba(0, 0, 0, 0.5), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 20px 20px rgba(0, 0, 0, 0.15);
+}
 
 .reveal .awesome {
   color: #FF780B;
@@ -171,6 +181,15 @@ body {
 
 }
 
+
+.reveal .black {
+  color: #000;
+  font-size: 6em;
+}
+.reveal .lower.awesome {
+  text-shadow: 0 1px 0 #3299BB, 0 2px 0 #3299BB, 0 3px 0 #3299BB, 0 4px 0 #3299BB, 0 5px 0 #3299BB, 0 6px 1px rgba(0, 0, 0, 0.5), 0 0 5px rgba(0, 0, 0, 0.5), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 20px 20px rgba(0, 0, 0, 0.15);
+}
+
 .reveal .lower {
   color: #3299BB;
 }
@@ -183,10 +202,11 @@ body {
 
 .reveal .squareHoles {
   width: 400px;
-  height: 320px;
+  height: 290px;
   text-align:center;
   padding-top: 80px;
-  margin-left: 180px;
+  margin-top: 2%;
+  margin-left: 27%;
 
 }
 .reveal .roundedCorners {

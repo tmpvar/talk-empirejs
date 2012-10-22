@@ -18,7 +18,7 @@ void loop() {
      return;
    }
    
-   // Pulse the pulse pin #2
+   // Pulse pin #2
    digitalWrite(2, HIGH);
    digitalWrite(2, LOW);
  }
